@@ -34,10 +34,9 @@ color9='\033[1;34m'  		# light blue
 nocolor='\033[0m'    		# no color
 
 
-
+printf "\n"
 printf "Welcome to ${color6}%s ${nocolor}\n" "$(uname -n)"
-#printf "${color8}%s ${nocolor}(%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
-#printf "\n" "\n" "$DISTRIB_DESCRIPTION" "$(uname -n)" "$(uname -r)" "$(uname -m)" "\n"
+printf "\n"
 
 # my version of the Ubuntu logo by linuxlogo in classic colors
 
