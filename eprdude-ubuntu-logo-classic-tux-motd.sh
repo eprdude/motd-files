@@ -39,19 +39,35 @@ printf "Welcome to ${color6}%s ${nocolor}\n" "$(uname -n)"
 #printf "${color8}%s ${nocolor}(%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
 #printf "\n" "\n" "$DISTRIB_DESCRIPTION" "$(uname -n)" "$(uname -r)" "$(uname -m)" "\n"
 
-# my version of the Ubuntu logo by linuxlogo in classic mode
+# my version of the Ubuntu logo by linuxlogo in classic colors
 
-printf "               ${color1}.-.${nocolor}\n"
-printf "         ${color8}.-'\`\`${color1}(   ) ${nocolor}\n"
-printf "      ${color3},\`\\ ${color8}\\    ${color1}\`-\`${color8}.${nocolor}\n"
-printf "     ${color3}/   \\ ${color8}'\`\`-.   \`   ${color8}`lsb_release -s -d`${nocolor}\n"
-printf "   ${color8}.-.  ${color3},       ${color8}\`___:  ${color3}`uname -srmo`${nocolor}\n"
-printf "  ${color8}(   ) ${color3}:       ${color1} ___   ${color1}`date`${nocolor}\n"
-printf "   ${color8}\`-\`  ${color3}\`      ${color1} ,   :${nocolor}\n"
+# printf "               ${color1}.-.${nocolor}\n"
+# printf "         ${color8}.-'\`\`${color1}(   ) ${nocolor}\n"
+# printf "      ${color3},\`\\ ${color8}\\    ${color1}\`-\`${color8}.${nocolor}\n"
+# printf "     ${color3}/   \\ ${color8}'\`\`-.   \`   ${color8}`lsb_release -s -d`${nocolor}\n"
+# printf "   ${color8}.-.  ${color3},       ${color8}\`___:  ${color3}`uname -srmo`${nocolor}\n"
+# printf "  ${color8}(   ) ${color3}:       ${color1} ___   ${color1}`date`${nocolor}\n"
+# printf "   ${color8}\`-\`  ${color3}\`      ${color1} ,   :${nocolor}\n"
+# printf "     ${color3}\\   / ${color1},..-\`   ,${nocolor}\n"
+# printf "      ${color3}\`./${color1} /    ${color3}.-.${color1}\`${nocolor}\n"
+# printf "         ${color1}\`-..-${color3}(   )${nocolor}\n"
+# printf "               ${color3}\`-\`${nocolor}\n"
+
+
+#multi color version:
+
+printf "               ${color5}.-.${nocolor}\n"
+printf "         ${color6}.-'\`\`${color5}(   ) ${nocolor}\n"
+printf "      ${color3},\`\\ ${color6}\\    ${color5}\`-\`${color6}.${nocolor}\n"
+printf "     ${color3}/   \\ ${color6}'\`\`-.   \`   ${color6}`lsb_release -s -d`${nocolor}\n"
+printf "   ${color5}.-.  ${color3},       ${color6}\`___:  ${color3}`uname -srmo`${nocolor}\n"
+printf "  ${color5}(   ) ${color3}:       ${color1} ___   ${color5}`date`${nocolor}\n"
+printf "   ${color5}\`-\`  ${color3}\`      ${color1} ,   :${nocolor}\n"
 printf "     ${color3}\\   / ${color1},..-\`   ,${nocolor}\n"
-printf "      ${color3}\`./${color1} /    ${color3}.-.${color1}\`${nocolor}\n"
-printf "         ${color1}\`-..-${color3}(   )${nocolor}\n"
-printf "               ${color3}\`-\`${nocolor}\n"
+printf "      ${color3}\`./${color1} /    ${color5}.-.${color1}\`${nocolor}\n"
+printf "         ${color1}\`-..-${color5}(   )${nocolor}\n"
+printf "               ${color5}\`-\`${nocolor}\n"
+
 
 # my version of cowsay tux.cow logo
 
