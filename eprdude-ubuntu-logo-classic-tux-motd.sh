@@ -2,6 +2,8 @@
 
 # Print the Welcome, Ubuntu Logo and System Information and Tux
 
+# below is ganked from the 00-header file in /etc/update-motd.d
+
 [ -r /etc/lsb-release ] && . /etc/lsb-release
 
 if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
@@ -9,6 +11,7 @@ if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
 	DISTRIB_DESCRIPTION=$(lsb_release -s -d)
 fi
 
+# ANSI color codes
 
 ## Black        0;30     Dark Gray     1;30
 ## Red          0;31     Light Red     1;31
@@ -31,12 +34,12 @@ color9='\033[1;34m'  		# light blue
 nocolor='\033[0m'    		# no color
 
 
+
 printf "Welcome to ${color6}%s ${nocolor}\n" "$(uname -n)"
 #printf "${color8}%s ${nocolor}(%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
 #printf "\n" "\n" "$DISTRIB_DESCRIPTION" "$(uname -n)" "$(uname -r)" "$(uname -m)" "\n"
 
-
-# Ubuntu logo
+# my version of the Ubuntu logo by linuxlogo in classic mode
 
 printf "               ${color1}.-.${nocolor}\n"
 printf "         ${color8}.-'\`\`${color1}(   ) ${nocolor}\n"
@@ -50,7 +53,7 @@ printf "      ${color3}\`./${color1} /    ${color3}.-.${color1}\`${nocolor}\n"
 printf "         ${color1}\`-..-${color3}(   )${nocolor}\n"
 printf "               ${color3}\`-\`${nocolor}\n"
 
-# Tux logo
+# my version of cowsay tux.cow logo
 
 printf "        .--. \n"
 printf "       |${color6}o${nocolor}_${color6}o${nocolor} | \n"
@@ -61,3 +64,6 @@ printf "    ${color3}/${nocolor}\'\_   _/\'${color3}\ \n"
 printf "    ${color3}\\___)${nocolor}=${color3}(___/ \n"
 printf "\n"
 printf "\n"
+
+# references:
+# https://unix.stackexchange.com/questions/124407/what-color-codes-can-i-use-in-my-bash-ps1-prompt
