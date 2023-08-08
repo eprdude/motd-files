@@ -52,6 +52,33 @@ printf "\n"
 # printf "         ${color1}\`-..-${color3}(   )${nocolor}\n"
 # printf "               ${color3}\`-\`${nocolor}\n"
 
+# orange and white version:
+
+# printf "               ${color5}.-.${nocolor}\n"
+# printf "         ${color8}.-'\`\`${color5}(   ) ${nocolor}\n"
+# printf "      ${color8},\`\\ ${color8}\\    ${color5}\`-\`${color8}.${nocolor}\n"
+# printf "     ${color8}/   \\ ${color8}'\`\`-.   \`   ${color6}`lsb_release -s -d`${nocolor}\n"
+# printf "   ${color5}.-.  ${color8},       ${color8}\`___:  ${nocolor}`uname -srmo`${nocolor}\n"
+# printf "  ${color5}(   ) ${color8}:       ${color8} ___   ${nocolor}`date`${nocolor}\n"
+# printf "   ${color5}\`-\`  ${color8}\`      ${color8} ,   :${nocolor}\n"
+# printf "     ${color8}\\   / ${color8},..-\`   ,${nocolor}\n"
+# printf "      ${color8}\`./${color8} /    ${color5}.-.${color8}\`${nocolor}\n"
+# printf "         ${color8}\`-..-${color5}(   )${nocolor}\n"
+# printf "               ${color5}\`-\`${nocolor}\n"
+
+# green and white version:
+
+# printf "               ${color5}.-.${nocolor}\n"
+# printf "         ${color6}.-'\`\`${color5}(   ) ${nocolor}\n"
+# printf "      ${color6},\`\\ ${color6}\\    ${color5}\`-\`${color6}.${nocolor}\n"
+# printf "     ${color6}/   \\ ${color6}'\`\`-.   \`   ${color6}`lsb_release -s -d`${nocolor}\n"
+# printf "   ${color5}.-.  ${color6},       ${color6}\`___:  ${nocolor}`uname -srmo`${nocolor}\n"
+# printf "  ${color5}(   ) ${color6}:       ${color6} ___   ${nocolor}`date`${nocolor}\n"
+# printf "   ${color5}\`-\`  ${color6}\`      ${color6} ,   :${nocolor}\n"
+# printf "     ${color6}\\   / ${color6},..-\`   ,${nocolor}\n"
+# printf "      ${color6}\`./${color6} /    ${color5}.-.${color6}\`${nocolor}\n"
+# printf "         ${color6}\`-..-${color5}(   )${nocolor}\n"
+# printf "               ${color5}\`-\`${nocolor}\n"
 
 #multi color version:
 
